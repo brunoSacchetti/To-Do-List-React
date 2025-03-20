@@ -1,0 +1,46 @@
+.container-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.input-tarea{
+    resize: vertical;
+    width: 300px;
+    height: 30px;
+    padding: 10px;
+    border: 1px solid #804444;
+    border-radius: 5px;
+}
+
+.input-fecha{
+    width: 300px;
+    height: 30px;
+    padding: 10px;
+    border: 1px solid #804444;
+    border-radius: 5px;
+}
+
+.btn-tarea{
+    padding: 10px 20px;
+    background-color: #40b630;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-tarea-editando{
+    background-color: rgb(0, 123, 224);
+}
+
+.btn-tarea-agregando{
+    background-color: green;
+}
+
+h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+}
